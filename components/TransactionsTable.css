@@ -1,0 +1,59 @@
+/* App.css */
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .transactions-table th,
+  .transactions-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .transactions-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .transactions-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .transactions-table tbody tr:hover {
+    background-color: #ddd;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .transactions-table {
+      overflow-x: auto;
+      display: block;
+    }
+  
+    .transactions-table thead,
+    .transactions-table tbody,
+    .transactions-table th,
+    .transactions-table td,
+    .transactions-table tr {
+      display: block;
+    }
+  
+    .transactions-table tr {
+      border-bottom: 1px solid #ddd;
+      margin-bottom: 10px;
+    }
+  
+    .transactions-table th {
+      text-align: left;
+      background-color: #4caf50;
+      color: white;
+    }
+  
+    .transactions-table td {
+      text-align: left;
+      border: none;
+      border-bottom: 1px solid #ddd;
+    }
+  }
+  
